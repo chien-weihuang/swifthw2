@@ -151,7 +151,7 @@ class ViewController: UIViewController {
     func logC(val: Double, forBase base: Double) -> Double {
         return log(val)/log(base)
     }
-    
+    //testing 
    
     @IBAction func log10(_ sender: UIButton) {
         let currentNumber = Double(self.displayText.text ?? "0")!
